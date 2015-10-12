@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB06BD421BCB3ED80009541B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB06BD411BCB3ED80009541B /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EB27E9851BC964FA0060A494 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27E9841BC964FA0060A494 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EB845A681BC9FF8000AF8B48 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB845A671BC9FF8000AF8B48 /* PhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EB845A6A1BCA0D7400AF8B48 /* SignInSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB845A691BCA0D7400AF8B48 /* SignInSettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		EBF9BD541BC6B8DD00D01D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9BD531BC6B8DD00D01D61 /* AppDelegate.swift */; };
 		EBF9BD561BC6B8DD00D01D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9BD551BC6B8DD00D01D61 /* ViewController.swift */; };
 		EBF9BD591BC6B8DD00D01D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF9BD571BC6B8DD00D01D61 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB06BD411BCB3ED80009541B /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EB27E9841BC964FA0060A494 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EB845A671BC9FF8000AF8B48 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../PhotoViewController.swift; sourceTree = "<group>"; };
+		EB845A691BCA0D7400AF8B48 /* SignInSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInSettingsViewController.swift; path = ../SignInSettingsViewController.swift; sourceTree = "<group>"; };
 		EBF9BD501BC6B8DD00D01D61 /* DBassignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBassignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF9BD531BC6B8DD00D01D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF9BD551BC6B8DD00D01D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +108,13 @@
 				EBF9BD531BC6B8DD00D01D61 /* AppDelegate.swift */,
 				EBF9BD551BC6B8DD00D01D61 /* ViewController.swift */,
 				EBF9BD571BC6B8DD00D01D61 /* Main.storyboard */,
+				EB27E9841BC964FA0060A494 /* SettingsViewController.swift */,
+				EB845A691BCA0D7400AF8B48 /* SignInSettingsViewController.swift */,
+				EB845A671BC9FF8000AF8B48 /* PhotoViewController.swift */,
 				EBF9BD5A1BC6B8DD00D01D61 /* Assets.xcassets */,
 				EBF9BD5C1BC6B8DD00D01D61 /* LaunchScreen.storyboard */,
 				EBF9BD5F1BC6B8DD00D01D61 /* Info.plist */,
+				EB06BD411BCB3ED80009541B /* WelcomeViewController.swift */,
 			);
 			path = DBassignment;
 			sourceTree = "<group>";
@@ -255,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB845A6A1BCA0D7400AF8B48 /* SignInSettingsViewController.swift in Sources */,
 				EBF9BD561BC6B8DD00D01D61 /* ViewController.swift in Sources */,
+				EB845A681BC9FF8000AF8B48 /* PhotoViewController.swift in Sources */,
+				EB06BD421BCB3ED80009541B /* WelcomeViewController.swift in Sources */,
 				EBF9BD541BC6B8DD00D01D61 /* AppDelegate.swift in Sources */,
+				EB27E9851BC964FA0060A494 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +497,7 @@
 				EBF9BD7A1BC6B8DD00D01D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF9BD7B1BC6B8DD00D01D61 /* Build configuration list for PBXNativeTarget "DBassignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				EBF9BD7D1BC6B8DD00D01D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF9BD7E1BC6B8DD00D01D61 /* Build configuration list for PBXNativeTarget "DBassignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +515,7 @@
 				EBF9BD801BC6B8DD00D01D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
